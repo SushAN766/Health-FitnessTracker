@@ -34,6 +34,8 @@ A simple Java Swing GUI application to track user activity and estimate calories
    ```bash
    javac src/fitnesstracker.java
 
+---
+
 ## 📂 Folder Structure
    ```
    Health-FitnessTracker/
@@ -47,8 +49,6 @@ A simple Java Swing GUI application to track user activity and estimate calories
 ---
 
 ## 🔢 Calorie Calculation Logic
-
-
 
    ```
    calories = (steps * 0.04) + (distance_km * 0.1);

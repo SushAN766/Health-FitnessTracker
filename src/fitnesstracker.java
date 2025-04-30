@@ -21,7 +21,10 @@ public class fitnesstracker1 extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                ImageIcon backgroundImage = new ImageIcon("E:\\fitness  tracker/bgimg.jpg");
+                ImageIcon backgroundImage = new ImageIcon("E:\\java\\Health-FitnessTracker\\images\\bgimg.jpg");
+
+                //System.out.println(new File("images/bg.jpg").getAbsolutePath());
+
                 g.drawImage(backgroundImage.getImage(), 0, 0, getWidth(), getHeight(), this);
             }
         };

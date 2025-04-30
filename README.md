@@ -9,7 +9,7 @@ A simple Java Swing GUI application to track user activity and estimate calories
 ### Input Form  
 ![Form](./images/inputform.png)
 
-### Output Example  
+### Output Form
 ![Result](./images/outputform.png)
 
 ---
